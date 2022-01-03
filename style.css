@@ -18,7 +18,7 @@ h1 {
 
 .half-width {
     width: 50%;
-    padding-left: 5%;
+    padding-left: 4%;
 }
 
 .half-width img {
@@ -47,4 +47,35 @@ h1 {
     background-repeat: no-repeat;
     background-position: right;
     background-position-y: 85%;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: 85%;
+}
+
+.experience-item {
+    width: 45%;
+    margin: 0 5%;
+    padding: 30px 10px 80px 30px;
+    border-radius: 7px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#full-stack-exp {
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+
+#web-dev-exp {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
